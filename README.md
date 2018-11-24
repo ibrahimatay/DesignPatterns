@@ -11,7 +11,7 @@ My examples of Design Patterns in C#
 --
 - Factory Method 
 - Abstract Factory [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.AbstractFactory)]
-- Builder
+- Builder [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Builder)]
 - Prototype
 - Singleton
 
