@@ -34,7 +34,7 @@ My examples of Design Patterns in C#
 - Iterator [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Iterator)]
 - Mediator
 - Memento [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Memento)]
-- Observer
+- Observer [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Observer)]
 - State
 - Strategy
 - Template Method
