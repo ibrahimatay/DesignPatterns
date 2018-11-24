@@ -5,5 +5,5 @@ mono: none
 dotnet: 2.1.500
 script:
  - dotnet restore
- - xbuild /p:Configuration=Release solution-name.sln
+ - dotnet build
 
