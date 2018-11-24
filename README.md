@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ibrahimatay/DesignPatterns.svg?branch=master)](https://travis-ci.com/ibrahimatay/DesignPatterns)
+
 # DesignPatterns
 My examples of Design Patterns in C#
 
