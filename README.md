@@ -31,7 +31,7 @@ My examples of Design Patterns in C#
 --
 - Chain of Responsibility
 - Command [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Command)]
-- Iterator
+- Iterator [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Iterator)]
 - Mediator
 - Memento
 - Observer
