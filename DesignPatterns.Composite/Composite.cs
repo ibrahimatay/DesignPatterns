@@ -25,7 +25,7 @@ namespace DesignPatterns.Composite
         {
             foreach (var component in _childrenComponents)
             {
-                component.Display(1)
+                component.Display(1);
             }
         }
     }
