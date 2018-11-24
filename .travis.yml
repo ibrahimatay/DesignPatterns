@@ -1,0 +1,12 @@
+language: csharp
+solution: DesignPatterns.sln
+
+install:
+  - nuget restore DesignPatterns.sln
+
+mono: none
+dotnet: 2.1.500
+script:
+ - dotnet restore
+ - xbuild /p:Configuration=Release solution-name.sln
+
