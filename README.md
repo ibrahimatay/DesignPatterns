@@ -36,7 +36,7 @@ My examples of Design Patterns in C#
 - Memento [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Memento)]
 - Observer [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Observer)]
 - State
-- Strategy
+- Strategy [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Strategy)]
 - Template Method
 - Visitor
 
