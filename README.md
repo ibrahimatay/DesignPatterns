@@ -20,7 +20,7 @@ My examples of Design Patterns in C#
 **Structural**
 --
 - Adapter [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Adapter)]
-- Proxy
+- Proxy [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Proxy)]
 - Facede [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Facade)]
 - Bridge
 - Composite [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
