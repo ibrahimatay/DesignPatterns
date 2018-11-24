@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/ibrahimatay/DesignPatterns.svg?branch=master)](https://travis-ci.com/ibrahimatay/DesignPatterns)
 
 # DesignPatterns
-My examples of Design Patterns in C#
+Design Patterns are solutions to common software design problems that occur over and over in software development.
 
 ***Types of Design Patterns***
 --
