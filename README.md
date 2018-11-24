@@ -21,7 +21,7 @@ My examples of Design Patterns in C#
 - Proxy
 - Facede
 - Bridge
-- Composite
+- Composite [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
 - Flyweight
 - Decorator
 
