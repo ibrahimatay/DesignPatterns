@@ -23,7 +23,7 @@ Design Patterns are solutions to common software design problems that occur over
 - Proxy [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Proxy)]
 - Facede [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Facade)]
 - Composite [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
-- Bridge
+- Bridge [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Bridge)]
 - Flyweight
 - Decorator
 
