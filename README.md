@@ -25,7 +25,7 @@ Design Patterns are solutions to common software design problems that occur over
 - Composite [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
 - Bridge [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Bridge)]
 - Flyweight [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Flyweight)]
-- Decorator
+- Decorator [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Decorator)]
 
 **Behavioral**
 --
