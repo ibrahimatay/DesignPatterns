@@ -34,7 +34,7 @@ Design Patterns are solutions to common software design problems that occur over
 - Memento [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Memento)]
 - Observer [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Observer)]
 - Strategy [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Strategy)]
-- Template Method
+- Template Method [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.TemplateMethod)]
 - Visitor
 - Chain of Responsibility
 - State

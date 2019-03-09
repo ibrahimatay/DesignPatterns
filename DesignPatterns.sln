@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Flyweight", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator", "DesignPatterns.Decorator\DesignPatterns.Decorator.csproj", "{AED8EF31-C6BF-40D7-8428-0190C180C3AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMethod", "DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj", "{CC971389-9E53-48B5-8B87-6E0A8C60EED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{AED8EF31-C6BF-40D7-8428-0190C180C3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED8EF31-C6BF-40D7-8428-0190C180C3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED8EF31-C6BF-40D7-8428-0190C180C3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC971389-9E53-48B5-8B87-6E0A8C60EED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC971389-9E53-48B5-8B87-6E0A8C60EED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC971389-9E53-48B5-8B87-6E0A8C60EED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC971389-9E53-48B5-8B87-6E0A8C60EED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3D6FEC48-3D15-4759-9913-D97359BCF717} = {E0058F9B-A0B3-4920-A761-8A72F3C9A390}
@@ -133,5 +139,6 @@ Global
 		{D860F8A3-5F64-47BF-B468-852156CD312A} = {550D0CF0-EC3F-4931-AEDF-7AA30472B3FC}
 		{01B4AD05-F315-42E2-8EFF-F8994061DD4A} = {550D0CF0-EC3F-4931-AEDF-7AA30472B3FC}
 		{AED8EF31-C6BF-40D7-8428-0190C180C3AC} = {550D0CF0-EC3F-4931-AEDF-7AA30472B3FC}
+		{CC971389-9E53-48B5-8B87-6E0A8C60EED7} = {EEFD4227-FD3F-4F02-B0EE-FF97ACD1F94C}
 	EndGlobalSection
 EndGlobal
