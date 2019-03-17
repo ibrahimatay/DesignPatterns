@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Visitor", "DesignPatterns.Visitor\DesignPatterns.Visitor.csproj", "{8F6D2B4F-58DF-42A4-8775-B85B618D3E04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ChainofResponsibility", "DesignPatterns.ChainofResponsibility\DesignPatterns.ChainofResponsibility.csproj", "{BDBFA108-A726-429F-81F8-215B6BA1036E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,6 +128,10 @@ Global
 		{8F6D2B4F-58DF-42A4-8775-B85B618D3E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F6D2B4F-58DF-42A4-8775-B85B618D3E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F6D2B4F-58DF-42A4-8775-B85B618D3E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBFA108-A726-429F-81F8-215B6BA1036E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBFA108-A726-429F-81F8-215B6BA1036E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBFA108-A726-429F-81F8-215B6BA1036E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBFA108-A726-429F-81F8-215B6BA1036E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3D6FEC48-3D15-4759-9913-D97359BCF717} = {E0058F9B-A0B3-4920-A761-8A72F3C9A390}
@@ -147,5 +153,6 @@ Global
 		{AED8EF31-C6BF-40D7-8428-0190C180C3AC} = {550D0CF0-EC3F-4931-AEDF-7AA30472B3FC}
 		{CC971389-9E53-48B5-8B87-6E0A8C60EED7} = {EEFD4227-FD3F-4F02-B0EE-FF97ACD1F94C}
 		{8F6D2B4F-58DF-42A4-8775-B85B618D3E04} = {EEFD4227-FD3F-4F02-B0EE-FF97ACD1F94C}
+		{BDBFA108-A726-429F-81F8-215B6BA1036E} = {EEFD4227-FD3F-4F02-B0EE-FF97ACD1F94C}
 	EndGlobalSection
 EndGlobal
