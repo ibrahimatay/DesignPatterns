@@ -11,32 +11,32 @@ Design Patterns are solutions to common software design problems that occur over
 
 **Creational**
 --
-- Factory Method    [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.FactoryMethod)]
-- Abstract Factory  [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.AbstractFactory)]
-- Builder           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Builder)]
-- Prototype         [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Prototype)]
-- Singleton         [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Singleton)]
+- Factory Method            [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.FactoryMethod)]
+- Abstract Factory          [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.AbstractFactory)]
+- Builder                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Builder)]
+- Prototype                 [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Prototype)]
+- Singleton                 [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Singleton)]
 
 **Structural**
 --
-- Adapter           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Adapter)]
-- Proxy             [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Proxy)]
-- Facede            [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Facade)]
-- Composite         [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
-- Bridge            [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Bridge)]
-- Flyweight         [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Flyweight)]
-- Decorator         [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Decorator)]
+- Adapter                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Adapter)]
+- Proxy                     [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Proxy)]
+- Facede                    [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Facade)]
+- Composite                 [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Composite)]
+- Bridge                    [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Bridge)]
+- Flyweight                 [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Flyweight)]
+- Decorator                 [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Decorator)]
 
 **Behavioral**
 --
-- Command           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Command)]
-- Iterator          [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Iterator)]
-- Memento           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Memento)]
-- Observer          [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Observer)]
-- Strategy          [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Strategy)]
-- Template Method   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.TemplateMethod)]
-- Visitor           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Visitor)]
+- Command                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Command)]
+- Iterator                  [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Iterator)]
+- Memento                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Memento)]
+- Observer                  [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Observer)]
+- Strategy                  [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Strategy)]
+- Template Method           [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.TemplateMethod)]
+- Visitor                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Visitor)]
 - Chain of Responsibility   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.ChainofResponsibility)]
-- State
+- State                     [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.State)]
 - Mediator
 
