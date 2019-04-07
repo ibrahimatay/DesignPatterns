@@ -38,5 +38,5 @@ Design Patterns are solutions to common software design problems that occur over
 - Visitor                   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Visitor)]
 - Chain of Responsibility   [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.ChainofResponsibility)]
 - State                     [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.State)]
-- Mediator
+- Mediator                  [[Project](https://github.com/ibrahimatay/DesignPatterns/tree/master/DesignPatterns.Mediator)]
 
