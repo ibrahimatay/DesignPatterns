@@ -1,35 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace DesignPatterns.Mediator
 {
     public abstract class Messenger
     {
-        protected IChat _chat;
-        public Messenger(IChat chat)
-        {
-            _chat = chat;
-        }
-
-        public abstract void Sender(string message);
         public abstract void Receiver(string message);
     }
     
     public interface IChat
     {
-        void SendMessage(Messenger sender, Messenger receiver, string message);
+        void SendMessage(Messenger receiver, string message);
+
+        void AddMessenger(Messenger messenger);
     }
 
     public class AliceMessenger : Messenger
     {
-        public AliceMessenger(IChat chat) : base(chat)
-        {
-        }
-
-        public override void Sender(string message)
-        {
-            Console.WriteLine($"Sent message:{message}");
-        }
-
         public override void Receiver(string message)
         {
             Console.WriteLine($"received the message:{message}");
@@ -38,27 +26,33 @@ namespace DesignPatterns.Mediator
 
     public class BobMessenger : Messenger
     {
-        public BobMessenger(IChat chat) : base(chat)
-        {
-        }
-
-        public override void Sender(string message)
-        {
-            Console.WriteLine($"Sent message:{message}");
-        }
-
         public override void Receiver(string message)
         {
             Console.WriteLine($"received the message:{message}");
         }
     }
 
-    public class WhatsApp : IChat
+    public class AnonymousChat : IChat
     {
-        public void SendMessage(Messenger sender, Messenger receiver, string message)
+        private List<Messenger> messengers;
+
+        public AnonymousChat()
         {
-            sender.Sender(message);
-            receiver.Receiver(message);
+            messengers = new List<Messenger>();
+        }
+
+
+        public void SendMessage(Messenger receiver, string message)
+        {
+            var messenger = messengers.SingleOrDefault(x => x == receiver);
+            if (messenger == null) return;
+
+            messenger.Receiver(message);
+        }
+
+        public void AddMessenger(Messenger messenger)
+        {
+            messengers.Add(messenger);
         }
     }
     
@@ -66,12 +60,15 @@ namespace DesignPatterns.Mediator
     {
         public static void Main(string[] args)
         {
-            IChat whatsApp = new WhatsApp();
+            IChat chat = new AnonymousChat();
             
-            Messenger bobMessenger = new BobMessenger(whatsApp);
-            Messenger aliceMessenger = new AliceMessenger(whatsApp);
+            Messenger bobMessenger = new BobMessenger();
+            Messenger aliceMessenger = new AliceMessenger();
             
-            whatsApp.SendMessage(bobMessenger, aliceMessenger,"Hello");
+            chat.AddMessenger(bobMessenger);
+            chat.AddMessenger(aliceMessenger);
+            
+            chat.SendMessage(aliceMessenger,"Hello");
         }
     }
 }
