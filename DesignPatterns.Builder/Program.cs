@@ -4,8 +4,6 @@ namespace DesignPatterns.Builder
 {
     public class Connection
     {
-        
-
         public string Database { get; set; }
         public string Server { get; set; }
         public string UserId { get; set; }
@@ -19,49 +17,47 @@ namespace DesignPatterns.Builder
 
     public class ConnectionBuilder
     {
-        public Connection Connection { get; }
+        private Connection _connection { get; }
 
         public ConnectionBuilder()
         {
-            Connection = new Connection();
+            _connection = new Connection();
         }
         
         public ConnectionBuilder SetDatabase(string database)
         {
-            Connection.Database = database;
+            _connection.Database = database;
             return this;
         }
 
         public ConnectionBuilder SetServer(string server)
         {
-            Connection.Server = server;
+            _connection.Server = server;
             return this;
         }
 
         public ConnectionBuilder SetUserId(string userId)
         {
-            Connection.UserId = userId;
+            _connection.UserId = userId;
             return this;
         }
 
         public ConnectionBuilder SetPassword(string password)
         {
-            Connection.Password = password;
+            _connection.Password = password;
             return this;
         }
 
         public Connection Build()
         {
-            return Connection;
+            return _connection;
         }
     }
-    
     
     public class Program
     {
         public static void Main(string[] args)
         {
-
             Connection connection = new ConnectionBuilder()
                 .SetServer("127.0.0.1")
                 .SetDatabase("Northwind")
